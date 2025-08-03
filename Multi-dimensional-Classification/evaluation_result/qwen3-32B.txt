@@ -1,0 +1,19 @@
+==== single label tasks evaluation====
+valid samples: 436
+
+[entity] Accuracy: 0.6538  Precision: 0.4095  Recall: 0.3544  F1: 0.3227
+[intent] Accuracy: 0.7380  Precision: 0.4991  Recall: 0.5299  F1: 0.5110
+[time] Accuracy: 0.9134  Precision: 0.6508  Recall: 0.3357  F1: 0.3448
+[eu_ai_act_risk_level] Accuracy: 0.5298  Precision: 0.3822  Recall: 0.3425  F1: 0.3501
+
+==== multi label tasks evaluation ====
+[domain]
+  Hamming loss: 0.2523
+  acc_micro: 0.7477  prec_micro: 0.4747  recall_micro: 0.7778  f1_micro: 0.5896
+  acc_macro: 0.7477  prec_macro: 0.4582  recall_macro: 0.7447  f1_macro: 0.5630
+
+[subdomain]
+  Hamming loss: 0.1704
+  acc_micro: 0.8296  prec_micro: 0.0567  recall_micro: 0.0888  f1_micro: 0.0692
+  acc_macro: 0.8296  prec_macro: 0.0463  recall_macro: 0.1032  f1_macro: 0.0485
+

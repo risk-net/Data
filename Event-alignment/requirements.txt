@@ -1,0 +1,7 @@
+faiss-cpu>=1.7.0
+numpy>=1.21.0
+tqdm>=4.62.0
+xinference>=0.5.0
+jsonlines>=3.0.0
+scikit-learn>=1.0.0
+scipy>=1.7.0 
