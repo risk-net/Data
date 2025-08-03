@@ -23,25 +23,29 @@ Note that due to translation issues, the framework may not be exactly the same a
 ## The causal classification framework
 
 ### Entity classification
+
 | ID | Category | Level | Description |
-|----|--------|------------| ----------------------------------------------------------------------.
-| 0 | Entity | artificial intelligence | Risks arise from decisions or actions made by artificial intelligence systems |
-| 1 | Entity | Human | Risk is caused by human decisions or actions |
-| 2 | Entity | Other | Risks are caused by other reasons or are unclear |
+|----|----------|-------|-------------|
+| 0  | Entity   | Artificial Intelligence | Risks arise from decisions or actions made by artificial intelligence systems |
+| 1  | Entity   | Human                   | Risk is caused by human decisions or actions |
+| 2  | Entity   | Other                   | Risks are caused by other reasons or are unclear |
 
 ### Intent classification
-| ID | Category | Level | Description |
-|----|--------|----------| ----------------------------------------------------------------------.
-| 0 | Intention | Intentional | Risk arises from the expected outcome of pursuing goals |
-| 1 | Intent | Unintentional | Risk results from unexpected outcomes in pursuit of goals |
-| 2 | Intent | Other | Risks are described as occurring, but their intent is not clearly stated |
 
-### time classification
-| ID | Category | Level | Description |
-|----|--------|------------| ----------------------------------------------------------------------.
-| 0 | Time | Pre-deployment | Risks exist before artificial intelligence deployment |
-| 1 | Time | Post-deployment | Risk occurs after artificial intelligence model training and deployment |
-| 2 | Time | Other | Risk does not specify time of occurrence |
+| ID | Category | Level       | Description |
+|----|----------|-------------|-------------|
+| 0  | Intent   | Intentional | Risk arises from the expected outcome of pursuing goals |
+| 1  | Intent   | Unintentional | Risk results from unexpected outcomes in pursuit of goals |
+| 2  | Intent   | Other         | Risks are described as occurring, but their intent is not clearly stated |
+
+### Time classification
+
+| ID | Category | Level          | Description |
+|----|----------|----------------|-------------|
+| 0  | Time     | Pre-deployment | Risks exist before artificial intelligence deployment |
+| 1  | Time     | Post-deployment | Risk occurs after artificial intelligence model training and deployment |
+| 2  | Time     | Other          | Risk does not specify time of occurrence |
+
 
 ---
 
@@ -63,7 +67,7 @@ Note that due to translation issues, the framework may not be exactly the same a
 |--------|--------| ------------------------ | ---------------------------------------------------------------------- |-----|
 | 1 | 1.1 | Unfair discrimination and misrepresentation | Artificial intelligence's unequal treatment of individuals or groups, often based on race, gender, or other sensitive characteristics, results in unfair outcomes and representation of those groups. | 8 |
 | 1 | 1.2 | Exposure to Toxic Substances | AI presents users with harmful, abusive, unsafe, or inappropriate content. May involve AI creating, describing, advising, or encouraging action. Examples of harmful content include hate speech, violence, extremism, illegal behavior, child sexual abuse material, and content that violates community norms, such as profanity, inflammatory political speech, or pornography. | 9 |
-The accuracy and effectiveness of artificial intelligence decisions and actions depend on group membership, and decisions in artificial intelligence system design and biased training data can lead to unequal outcomes, reduced benefits, increased workload, and user alienation.
+| 1 | 1.3 | The performance of each group was uneven |The accuracy and effectiveness of artificial intelligence decisions and actions depend on group membership, and decisions in artificial intelligence system design and biased training data can lead to unequal outcomes, reduced benefits, increased workload, and user alienation.| 10 |
 | 2 | 2.1 | Obtaining, leaking, or correctly inferring sensitive information, violating privacy | Artificial intelligence systems can remember and disclose sensitive personal data or infer personal privacy information without the individual's consent. Accidental or unauthorized sharing of data and information may compromise users' privacy expectations, facilitate identity theft, or lose confidential intellectual property. | 11 |
 | 2 | 2.2 | artificial intelligence system security bugs and attacks | Vulnerabilities that may be exploited in artificial intelligence systems, software power builders, and hardware, resulting in unauthorized access, data and privacy leakage, or system manipulation, resulting in insecure output or behavior. | 12 |
 | 3 | 3.1 | False or misleading information | Artificial intelligence systems inadvertently generate or disseminate incorrect or deceptive information, which may cause users to develop false beliefs and undermine their autonomy. Humans who make decisions based on false beliefs may suffer physical, emotional or material harm | 13 |
