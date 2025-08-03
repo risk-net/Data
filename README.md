@@ -12,11 +12,11 @@ Welcome to the AI Risk Analysis Research Resource Package, a comprehensive colle
 
 This resource package consists of three main components, each with its own detailed documentation:
 
-1. **Event Alignment Project**Implements event alignment and clustering using vector embeddings and similarity metrics, with multiple approaches for event clustering based on different data representations.[View Documentation](event_alignment/README.md)
-2. **Multi-dimensional Classification of AI Risk Incidents**Focuses on establishing a unified taxonomy (RiskNet Taxonomy) and benchmark dataset, comparing prompt-based inference and fine-tuned LLMs in multi-dimensional classification tasks.[View Documentation](classification/README.md)
+1. **Event Alignment Project**Implements event alignment and clustering using vector embeddings and similarity metrics, with multiple approaches for event clustering based on different data representations.[View Documentation](Event-alignment/README.md)
+2. **Multi-dimensional Classification of AI Risk Incidents**Focuses on establishing a unified taxonomy (RiskNet Taxonomy) and benchmark dataset, comparing prompt-based inference and fine-tuned LLMs in multi-dimensional classification tasks.[View Documentation](Multi-dimensional-Classification/README.md)
 3. **Standard Datasets**
    Contains four standard datasets for AI risk research: standard case dataset, standard event dataset, standard event classification dataset, and manually labeled risk-related case dataset.
-   [View Documentation](datasets/README.md)
+   [View Documentation](StandardDataset/README.md)
 
 ### Overview
 
@@ -36,9 +36,9 @@ Supplies curated datasets that form the empirical foundation for AI risk researc
 
 1. Clone the repository
 2. Refer to each component's documentation for specific setup instructions:
-   - [Event Alignment Setup](event_alignment/README.md#requirements)
-   - [Classification Setup](classification/README.md#requirements)
-   - [Datasets Information](datasets/README.md#introduction-to-standard-datasets)
+   - [Event Alignment Setup](Event-alignment/README.md)
+   - [Classification Setup](Multi-dimensional-Classification/README.md)
+   - [Datasets Information](StandardDataset/README.md)
 
 ### Common Dependencies
 
@@ -71,7 +71,7 @@ For questions related to the research implementation or datasets, please contact
 本资源包包含三个主要组件，每个组件都有自己的详细文档：
 
 1. **事件对齐项目**使用向量嵌入和相似性指标实现事件对齐和聚类，基于不同的数据表示提供多种事件聚类方法。[查看文档](event_alignment/README.md)
-2. **AI 风险事件的多维度分类**致力于建立统一的分类体系（RiskNet 分类法）和基准数据集，比较基于提示词的推理和微调大语言模型在多维度分类任务中的表现。[查看文档](classification/README.md)
+2. **AI 风险事件的多维度分类**致力于建立统一的分类体系（RiskNet 分类法）和基准数据集，比较基于提示词的推理和微调大语言模型在多维度分类任务中的表现。[查看文档](Multi-dimensional-Classification/README.md)
 3. **标准数据集**
    包含四个用于 AI 风险研究的标准数据集：标准案例数据集、标准事件数据集、标准事件分类数据集和人工标注的风险相关案例数据集。
    [查看文档](datasets/README.md)
@@ -95,8 +95,8 @@ For questions related to the research implementation or datasets, please contact
 1. 克隆仓库
 2. 参考每个组件的文档获取具体的设置说明：
    - [事件对齐设置](event_alignment/README.md#环境要求)
-   - [分类设置](classification/README.md#环境要求)
-   - [数据集信息](datasets/README.md#标准数据集介绍)
+   - [分类设置](Multi-dimensional-Classification/README.md)
+   - [数据集信息](StandardDataset/README.md)
 
 ### 通用依赖
 
